@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="55500eea-55b5-4dcf-9fcd-70cc759ea54f" name="@ip-10-0-31-187 2025-07-09 16:47:02" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2025-07-09T16:47:02.5056002+00:00" queuing="2025-07-09T16:47:02.5056002+00:00" start="2025-07-09T16:47:01.7735486+00:00" finish="2025-07-09T16:47:02.5393775+00:00" />
+  <TestSettings name="default" id="0beda149-943d-40ba-ada6-0bde1e5b7586">
+    <Deployment runDeploymentRoot="_ip-10-0-31-187_2025-07-09_16_47_02" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="fa9392fc-b33e-4557-bdac-c7f16df53251" testId="f7e8909e-5738-cf0f-b8a7-6a48c380d862" testName="Bruteflow.Tests.BlockTestsWithDataflow.Batch_pipeline_one_input_accumulate_to_one_output" computerName="ip-10-0-31-187" duration="00:00:00.0184682" startTime="2025-07-09T16:47:02.4010265+00:00" endTime="2025-07-09T16:47:02.4336912+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fa9392fc-b33e-4557-bdac-c7f16df53251" />
+    <UnitTestResult executionId="d3bb6ea6-2fa9-498d-b562-d928cd64272a" testId="30031370-9a32-c2f9-fbbe-60633a25825c" testName="Bruteflow.Tests.BlockTests.Distribute_pipeline_one_input_two_outputs" computerName="ip-10-0-31-187" duration="00:00:00.0024147" startTime="2025-07-09T16:47:02.4426565+00:00" endTime="2025-07-09T16:47:02.4462388+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d3bb6ea6-2fa9-498d-b562-d928cd64272a" />
+    <UnitTestResult executionId="858cb3fa-59a4-4009-9b98-bc12468eb8d4" testId="4b0008a6-fc4e-45ea-4205-249262a8d620" testName="Bruteflow.Tests.BlockTests.Head_with_generator_should_await_blocks_when_have_many" computerName="ip-10-0-31-187" duration="00:00:00.0055240" startTime="2025-07-09T16:47:02.4404822+00:00" endTime="2025-07-09T16:47:02.4424380+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="858cb3fa-59a4-4009-9b98-bc12468eb8d4" />
+    <UnitTestResult executionId="2511bb5d-008c-4d74-b7a1-4240a04b7c54" testId="c52d15c7-ec32-7171-4456-2f2b98fb9f15" testName="Bruteflow.Tests.BlockTests.Head_without_pipeline_should_await_start" computerName="ip-10-0-31-187" duration="00:00:00.0007307" startTime="2025-07-09T16:47:02.4717106+00:00" endTime="2025-07-09T16:47:02.4717578+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2511bb5d-008c-4d74-b7a1-4240a04b7c54" />
+    <UnitTestResult executionId="7b6478e2-5615-4560-82bc-4ac755cc3fad" testId="0561dc09-0114-8cc7-440d-dc6efa250112" testName="Bruteflow.Tests.BlockTests.Head_with_generator_should_await_blocks_when_have_two" computerName="ip-10-0-31-187" duration="00:00:00.0010757" startTime="2025-07-09T16:47:02.4464958+00:00" endTime="2025-07-09T16:47:02.4465876+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7b6478e2-5615-4560-82bc-4ac755cc3fad" />
+    <UnitTestResult executionId="90a7dfae-a806-4583-ab22-6400539f4081" testId="2df66f51-0518-c783-a6ed-7b6a7e570a39" testName="Bruteflow.Tests.BlockTests.Head_with_only_pipeline_should_execute_all_blocks" computerName="ip-10-0-31-187" duration="00:00:00.0008056" startTime="2025-07-09T16:47:02.4720330+00:00" endTime="2025-07-09T16:47:02.4720804+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="90a7dfae-a806-4583-ab22-6400539f4081" />
+    <UnitTestResult executionId="81b8c967-a69d-45a9-bc04-52ce5efe0d70" testId="952524cd-c96f-3199-3291-779dafc03999" testName="Bruteflow.Tests.BlockTests.Batch_pipeline_one_input_accumulate_to_one_output" computerName="ip-10-0-31-187" duration="00:00:00.0105599" startTime="2025-07-09T16:47:02.4713678+00:00" endTime="2025-07-09T16:47:02.4714569+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="81b8c967-a69d-45a9-bc04-52ce5efe0d70" />
+    <UnitTestResult executionId="140e02dd-d6fb-4f3f-a79f-0b69ea84bcf9" testId="c3f270ca-8f95-3c24-e62a-3095681bfc5b" testName="Bruteflow.Tests.BlockTestsWithDataflow.Distribute_pipeline_one_input_two_outputs" computerName="ip-10-0-31-187" duration="00:00:00.0025723" startTime="2025-07-09T16:47:02.4410339+00:00" endTime="2025-07-09T16:47:02.4417750+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="140e02dd-d6fb-4f3f-a79f-0b69ea84bcf9" />
+    <UnitTestResult executionId="c178b064-e8e4-4594-9a54-1b894f76a3e8" testId="b8b77efb-e788-55a5-c669-9a202a7eab3d" testName="Bruteflow.Tests.BlockTests.Head_with_generator_should_await_blocks_when_have_one" computerName="ip-10-0-31-187" duration="00:00:00.0008578" startTime="2025-07-09T16:47:02.4718799+00:00" endTime="2025-07-09T16:47:02.4719254+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c178b064-e8e4-4594-9a54-1b894f76a3e8" />
+    <UnitTestResult executionId="e6ce6594-7f7f-4106-b98c-5bf6444765db" testId="855d6e0c-3786-f679-a358-7e6cc3fd0150" testName="Bruteflow.Tests.CreationOfBlocksTests.Decision_pipeline_has_only_positive_branch" computerName="ip-10-0-31-187" duration="00:00:00.0014880" startTime="2025-07-09T16:47:02.4405290+00:00" endTime="2025-07-09T16:47:02.4411062+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e6ce6594-7f7f-4106-b98c-5bf6444765db" />
+    <UnitTestResult executionId="acea0daf-8fd0-4ecb-8443-0de743eef87b" testId="539c143d-f8a6-7c3c-50fa-7157107c88c9" testName="Bruteflow.Tests.CreationOfBlocksTests.Decision_pipeline_has_only_negative_branch" computerName="ip-10-0-31-187" duration="00:00:00.0178025" startTime="2025-07-09T16:47:02.4027456+00:00" endTime="2025-07-09T16:47:02.4277866+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="acea0daf-8fd0-4ecb-8443-0de743eef87b" />
+    <UnitTestResult executionId="400e277f-9ff7-4a73-b147-c977839adc95" testId="74e42b38-694f-1ab4-29bf-1df250217987" testName="Bruteflow.Tests.BlockTestsWithDataflow.Process_pipeline_one_input_one_output" computerName="ip-10-0-31-187" duration="00:00:00.0011213" startTime="2025-07-09T16:47:02.4405085+00:00" endTime="2025-07-09T16:47:02.4406473+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="400e277f-9ff7-4a73-b147-c977839adc95" />
+    <UnitTestResult executionId="4e084b02-71f4-4ed3-94e6-b608ef8e8b75" testId="f48f73e6-df5f-0798-7570-c067c10a8191" testName="Bruteflow.Tests.BlockTests.Decision_pipeline_one_input_different_outputs" computerName="ip-10-0-31-187" duration="00:00:00.0178704" startTime="2025-07-09T16:47:02.4028182+00:00" endTime="2025-07-09T16:47:02.4336004+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4e084b02-71f4-4ed3-94e6-b608ef8e8b75" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Bruteflow.Tests.BlockTests.Head_without_pipeline_should_await_start" storage="/tmp/tempfspartition/qnettransformartifacts/midtransformcode/transformedcode/sourcecode/src/bruteflow.tests/bin/debug/net8.0/bruteflow.tests.dll" id="c52d15c7-ec32-7171-4456-2f2b98fb9f15">
+      <Execution id="2511bb5d-008c-4d74-b7a1-4240a04b7c54" />
+      <TestMethod codeBase="/tmp/tempfspartition/QnetTransformArtifacts/MidTransformCode/transformedCode/sourceCode/src/Bruteflow.Tests/bin/Debug/net8.0/Bruteflow.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Bruteflow.Tests.BlockTests" name="Head_without_pipeline_should_await_start" />
+    </UnitTest>
+    <UnitTest name="Bruteflow.Tests.BlockTests.Head_with_only_pipeline_should_execute_all_blocks" storage="/tmp/tempfspartition/qnettransformartifacts/midtransformcode/transformedcode/sourcecode/src/bruteflow.tests/bin/debug/net8.0/bruteflow.tests.dll" id="2df66f51-0518-c783-a6ed-7b6a7e570a39">
+      <Execution id="90a7dfae-a806-4583-ab22-6400539f4081" />
+      <TestMethod codeBase="/tmp/tempfspartition/QnetTransformArtifacts/MidTransformCode/transformedCode/sourceCode/src/Bruteflow.Tests/bin/Debug/net8.0/Bruteflow.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Bruteflow.Tests.BlockTests" name="Head_with_only_pipeline_should_execute_all_blocks" />
+    </UnitTest>
+    <UnitTest name="Bruteflow.Tests.BlockTests.Head_with_generator_should_await_blocks_when_have_one" storage="/tmp/tempfspartition/qnettransformartifacts/midtransformcode/transformedcode/sourcecode/src/bruteflow.tests/bin/debug/net8.0/bruteflow.tests.dll" id="b8b77efb-e788-55a5-c669-9a202a7eab3d">
+      <Execution id="c178b064-e8e4-4594-9a54-1b894f76a3e8" />
+      <TestMethod codeBase="/tmp/tempfspartition/QnetTransformArtifacts/MidTransformCode/transformedCode/sourceCode/src/Bruteflow.Tests/bin/Debug/net8.0/Bruteflow.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Bruteflow.Tests.BlockTests" name="Head_with_generator_should_await_blocks_when_have_one" />
+    </UnitTest>
+    <UnitTest name="Bruteflow.Tests.BlockTests.Decision_pipeline_one_input_different_outputs" storage="/tmp/tempfspartition/qnettransformartifacts/midtransformcode/transformedcode/sourcecode/src/bruteflow.tests/bin/debug/net8.0/bruteflow.tests.dll" id="f48f73e6-df5f-0798-7570-c067c10a8191">
+      <Execution id="4e084b02-71f4-4ed3-94e6-b608ef8e8b75" />
+      <TestMethod codeBase="/tmp/tempfspartition/QnetTransformArtifacts/MidTransformCode/transformedCode/sourceCode/src/Bruteflow.Tests/bin/Debug/net8.0/Bruteflow.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Bruteflow.Tests.BlockTests" name="Decision_pipeline_one_input_different_outputs" />
+    </UnitTest>
+    <UnitTest name="Bruteflow.Tests.BlockTests.Distribute_pipeline_one_input_two_outputs" storage="/tmp/tempfspartition/qnettransformartifacts/midtransformcode/transformedcode/sourcecode/src/bruteflow.tests/bin/debug/net8.0/bruteflow.tests.dll" id="30031370-9a32-c2f9-fbbe-60633a25825c">
+      <Execution id="d3bb6ea6-2fa9-498d-b562-d928cd64272a" />
+      <TestMethod codeBase="/tmp/tempfspartition/QnetTransformArtifacts/MidTransformCode/transformedCode/sourceCode/src/Bruteflow.Tests/bin/Debug/net8.0/Bruteflow.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Bruteflow.Tests.BlockTests" name="Distribute_pipeline_one_input_two_outputs" />
+    </UnitTest>
+    <UnitTest name="Bruteflow.Tests.BlockTestsWithDataflow.Batch_pipeline_one_input_accumulate_to_one_output" storage="/tmp/tempfspartition/qnettransformartifacts/midtransformcode/transformedcode/sourcecode/src/bruteflow.tests/bin/debug/net8.0/bruteflow.tests.dll" id="f7e8909e-5738-cf0f-b8a7-6a48c380d862">
+      <Execution id="fa9392fc-b33e-4557-bdac-c7f16df53251" />
+      <TestMethod codeBase="/tmp/tempfspartition/QnetTransformArtifacts/MidTransformCode/transformedCode/sourceCode/src/Bruteflow.Tests/bin/Debug/net8.0/Bruteflow.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Bruteflow.Tests.BlockTestsWithDataflow" name="Batch_pipeline_one_input_accumulate_to_one_output" />
+    </UnitTest>
+    <UnitTest name="Bruteflow.Tests.CreationOfBlocksTests.Decision_pipeline_has_only_positive_branch" storage="/tmp/tempfspartition/qnettransformartifacts/midtransformcode/transformedcode/sourcecode/src/bruteflow.tests/bin/debug/net8.0/bruteflow.tests.dll" id="855d6e0c-3786-f679-a358-7e6cc3fd0150">
+      <Execution id="e6ce6594-7f7f-4106-b98c-5bf6444765db" />
+      <TestMethod codeBase="/tmp/tempfspartition/QnetTransformArtifacts/MidTransformCode/transformedCode/sourceCode/src/Bruteflow.Tests/bin/Debug/net8.0/Bruteflow.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Bruteflow.Tests.CreationOfBlocksTests" name="Decision_pipeline_has_only_positive_branch" />
+    </UnitTest>
+    <UnitTest name="Bruteflow.Tests.BlockTestsWithDataflow.Process_pipeline_one_input_one_output" storage="/tmp/tempfspartition/qnettransformartifacts/midtransformcode/transformedcode/sourcecode/src/bruteflow.tests/bin/debug/net8.0/bruteflow.tests.dll" id="74e42b38-694f-1ab4-29bf-1df250217987">
+      <Execution id="400e277f-9ff7-4a73-b147-c977839adc95" />
+      <TestMethod codeBase="/tmp/tempfspartition/QnetTransformArtifacts/MidTransformCode/transformedCode/sourceCode/src/Bruteflow.Tests/bin/Debug/net8.0/Bruteflow.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Bruteflow.Tests.BlockTestsWithDataflow" name="Process_pipeline_one_input_one_output" />
+    </UnitTest>
+    <UnitTest name="Bruteflow.Tests.BlockTestsWithDataflow.Distribute_pipeline_one_input_two_outputs" storage="/tmp/tempfspartition/qnettransformartifacts/midtransformcode/transformedcode/sourcecode/src/bruteflow.tests/bin/debug/net8.0/bruteflow.tests.dll" id="c3f270ca-8f95-3c24-e62a-3095681bfc5b">
+      <Execution id="140e02dd-d6fb-4f3f-a79f-0b69ea84bcf9" />
+      <TestMethod codeBase="/tmp/tempfspartition/QnetTransformArtifacts/MidTransformCode/transformedCode/sourceCode/src/Bruteflow.Tests/bin/Debug/net8.0/Bruteflow.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Bruteflow.Tests.BlockTestsWithDataflow" name="Distribute_pipeline_one_input_two_outputs" />
+    </UnitTest>
+    <UnitTest name="Bruteflow.Tests.BlockTests.Batch_pipeline_one_input_accumulate_to_one_output" storage="/tmp/tempfspartition/qnettransformartifacts/midtransformcode/transformedcode/sourcecode/src/bruteflow.tests/bin/debug/net8.0/bruteflow.tests.dll" id="952524cd-c96f-3199-3291-779dafc03999">
+      <Execution id="81b8c967-a69d-45a9-bc04-52ce5efe0d70" />
+      <TestMethod codeBase="/tmp/tempfspartition/QnetTransformArtifacts/MidTransformCode/transformedCode/sourceCode/src/Bruteflow.Tests/bin/Debug/net8.0/Bruteflow.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Bruteflow.Tests.BlockTests" name="Batch_pipeline_one_input_accumulate_to_one_output" />
+    </UnitTest>
+    <UnitTest name="Bruteflow.Tests.BlockTests.Head_with_generator_should_await_blocks_when_have_two" storage="/tmp/tempfspartition/qnettransformartifacts/midtransformcode/transformedcode/sourcecode/src/bruteflow.tests/bin/debug/net8.0/bruteflow.tests.dll" id="0561dc09-0114-8cc7-440d-dc6efa250112">
+      <Execution id="7b6478e2-5615-4560-82bc-4ac755cc3fad" />
+      <TestMethod codeBase="/tmp/tempfspartition/QnetTransformArtifacts/MidTransformCode/transformedCode/sourceCode/src/Bruteflow.Tests/bin/Debug/net8.0/Bruteflow.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Bruteflow.Tests.BlockTests" name="Head_with_generator_should_await_blocks_when_have_two" />
+    </UnitTest>
+    <UnitTest name="Bruteflow.Tests.CreationOfBlocksTests.Decision_pipeline_has_only_negative_branch" storage="/tmp/tempfspartition/qnettransformartifacts/midtransformcode/transformedcode/sourcecode/src/bruteflow.tests/bin/debug/net8.0/bruteflow.tests.dll" id="539c143d-f8a6-7c3c-50fa-7157107c88c9">
+      <Execution id="acea0daf-8fd0-4ecb-8443-0de743eef87b" />
+      <TestMethod codeBase="/tmp/tempfspartition/QnetTransformArtifacts/MidTransformCode/transformedCode/sourceCode/src/Bruteflow.Tests/bin/Debug/net8.0/Bruteflow.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Bruteflow.Tests.CreationOfBlocksTests" name="Decision_pipeline_has_only_negative_branch" />
+    </UnitTest>
+    <UnitTest name="Bruteflow.Tests.BlockTests.Head_with_generator_should_await_blocks_when_have_many" storage="/tmp/tempfspartition/qnettransformartifacts/midtransformcode/transformedcode/sourcecode/src/bruteflow.tests/bin/debug/net8.0/bruteflow.tests.dll" id="4b0008a6-fc4e-45ea-4205-249262a8d620">
+      <Execution id="858cb3fa-59a4-4009-9b98-bc12468eb8d4" />
+      <TestMethod codeBase="/tmp/tempfspartition/QnetTransformArtifacts/MidTransformCode/transformedCode/sourceCode/src/Bruteflow.Tests/bin/Debug/net8.0/Bruteflow.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Bruteflow.Tests.BlockTests" name="Head_with_generator_should_await_blocks_when_have_many" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="f7e8909e-5738-cf0f-b8a7-6a48c380d862" executionId="fa9392fc-b33e-4557-bdac-c7f16df53251" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="30031370-9a32-c2f9-fbbe-60633a25825c" executionId="d3bb6ea6-2fa9-498d-b562-d928cd64272a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4b0008a6-fc4e-45ea-4205-249262a8d620" executionId="858cb3fa-59a4-4009-9b98-bc12468eb8d4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c52d15c7-ec32-7171-4456-2f2b98fb9f15" executionId="2511bb5d-008c-4d74-b7a1-4240a04b7c54" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0561dc09-0114-8cc7-440d-dc6efa250112" executionId="7b6478e2-5615-4560-82bc-4ac755cc3fad" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2df66f51-0518-c783-a6ed-7b6a7e570a39" executionId="90a7dfae-a806-4583-ab22-6400539f4081" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="952524cd-c96f-3199-3291-779dafc03999" executionId="81b8c967-a69d-45a9-bc04-52ce5efe0d70" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c3f270ca-8f95-3c24-e62a-3095681bfc5b" executionId="140e02dd-d6fb-4f3f-a79f-0b69ea84bcf9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b8b77efb-e788-55a5-c669-9a202a7eab3d" executionId="c178b064-e8e4-4594-9a54-1b894f76a3e8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="855d6e0c-3786-f679-a358-7e6cc3fd0150" executionId="e6ce6594-7f7f-4106-b98c-5bf6444765db" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="539c143d-f8a6-7c3c-50fa-7157107c88c9" executionId="acea0daf-8fd0-4ecb-8443-0de743eef87b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="74e42b38-694f-1ab4-29bf-1df250217987" executionId="400e277f-9ff7-4a73-b147-c977839adc95" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f48f73e6-df5f-0798-7570-c067c10a8191" executionId="4e084b02-71f4-4ed3-94e6-b608ef8e8b75" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="13" executed="13" passed="13" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v3.1.1+bf6400fd51 (64-bit .NET 8.0.18)
+[xUnit.net 00:00:00.07]   Discovering: Bruteflow.Tests
+[xUnit.net 00:00:00.10]   Discovered:  Bruteflow.Tests
+[xUnit.net 00:00:00.12]   Starting:    Bruteflow.Tests
+     Warning:
+     The component "Fluent Assertions" is governed by the rules defined in the Xceed License Agreement and
+     the Xceed Fluent Assertions Community License. You may use Fluent Assertions free of charge for
+     non-commercial use only. An active subscription is required to use Fluent Assertions for commercial use.
+     Please contact Xceed Sales mailto:sales@xceed.com to acquire a subscription at a very low cost.
+     A paid commercial license supports the development and continued increasing support of
+     Fluent Assertions users under both commercial and community licenses. Help us
+     keep Fluent Assertions at the forefront of unit testing.
+     For more information, visit https://xceed.com/products/unit-testing/fluent-assertions/
+[xUnit.net 00:00:00.22]   Finished:    Bruteflow.Tests
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>
