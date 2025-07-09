@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="ce853edd-c6cb-4fa1-afac-4aab34b51b0d" name="@ip-10-0-60-212 2025-07-09 04:32:07" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2025-07-09T04:32:07.8944189+00:00" queuing="2025-07-09T04:32:07.8944190+00:00" start="2025-07-09T04:27:05.7246860+00:00" finish="2025-07-09T04:32:07.9021009+00:00" />
+  <TestSettings name="default" id="41858b64-4d7b-4f28-9965-0b47c6b8e177">
+    <Deployment runDeploymentRoot="_ip-10-0-60-212_2025-07-09_04_32_07" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="ed9e2eed-980f-4f4e-80df-0abc98b131df" testId="b0e6b438-7129-2619-f6b6-6a500573aba3" testName="Bruteflow.Kafka.Tests.KafkaPipelineTests.KafkaPipeline_should_consumer_and_produce_events" computerName="ip-10-0-60-212" duration="00:05:01.2357096" startTime="2025-07-09T04:27:06.5226099+00:00" endTime="2025-07-09T04:32:07.7780832+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ed9e2eed-980f-4f4e-80df-0abc98b131df">
+      <Output>
+        <ErrorInfo>
+          <Message>Confluent.Kafka.ProduceException`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Newtonsoft.Json.Linq.JObject, Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed]] : Local: Message timed out</Message>
+          <StackTrace>   at Confluent.Kafka.Producer`2.ProduceAsync(TopicPartition topicPartition, Message`2 message, CancellationToken cancellationToken)
+   at Bruteflow.Kafka.Tests.KafkaPipelineTests.KafkaPipeline_should_consumer_and_produce_events() in /tmp/tempfspartition/QnetTransformArtifacts/MidTransformCode/transformedCode/sourceCode/src/Bruteflow.Kafka.Tests/KafkaPipelineTests.cs:line 51
+--- End of stack trace from previous location ---</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Bruteflow.Kafka.Tests.KafkaPipelineTests.KafkaPipeline_should_consumer_and_produce_events" storage="/tmp/tempfspartition/qnettransformartifacts/midtransformcode/transformedcode/sourcecode/src/bruteflow.kafka.tests/bin/debug/net8.0/bruteflow.kafka.tests.dll" id="b0e6b438-7129-2619-f6b6-6a500573aba3">
+      <Execution id="ed9e2eed-980f-4f4e-80df-0abc98b131df" />
+      <TestMethod codeBase="/tmp/tempfspartition/QnetTransformArtifacts/MidTransformCode/transformedCode/sourceCode/src/Bruteflow.Kafka.Tests/bin/Debug/net8.0/Bruteflow.Kafka.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Bruteflow.Kafka.Tests.KafkaPipelineTests" name="KafkaPipeline_should_consumer_and_produce_events" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="b0e6b438-7129-2619-f6b6-6a500573aba3" executionId="ed9e2eed-980f-4f4e-80df-0abc98b131df" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" passed="0" failed="1" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v3.1.1+bf6400fd51 (64-bit .NET 8.0.17)
+[xUnit.net 00:00:00.10]   Discovering: Bruteflow.Kafka.Tests
+[xUnit.net 00:00:00.16]   Discovered:  Bruteflow.Kafka.Tests
+[xUnit.net 00:00:00.20]   Starting:    Bruteflow.Kafka.Tests
+%3|1752035226.736|FAIL|rdkafka#producer-1| [thrd:localhost:9092/bootstrap]: localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Connection refused (after 0ms in state CONNECT)
+%3|1752035226.736|ERROR|rdkafka#producer-1| [thrd:localhost:9092/bootstrap]: 1/1 brokers are down
+%3|1752035226.738|ERROR|rdkafka#producer-1| [thrd:app]: rdkafka#producer-1: localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Connection refused (after 0ms in state CONNECT)
+%3|1752035227.736|FAIL|rdkafka#producer-1| [thrd:localhost:9092/bootstrap]: localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Connection refused (after 0ms in state CONNECT, 1 identical error(s) suppressed)
+%3|1752035227.736|ERROR|rdkafka#producer-1| [thrd:app]: rdkafka#producer-1: localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Connection refused (after 0ms in state CONNECT, 1 identical error(s) suppressed)
+%3|1752035257.737|FAIL|rdkafka#producer-1| [thrd:localhost:9092/bootstrap]: localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Connection refused (after 0ms in state CONNECT, 30 identical error(s) suppressed)
+%3|1752035257.737|ERROR|rdkafka#producer-1| [thrd:app]: rdkafka#producer-1: localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Connection refused (after 0ms in state CONNECT, 30 identical error(s) suppressed)
+%3|1752035287.738|FAIL|rdkafka#producer-1| [thrd:localhost:9092/bootstrap]: localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Connection refused (after 0ms in state CONNECT, 30 identical error(s) suppressed)
+%3|1752035287.738|ERROR|rdkafka#producer-1| [thrd:app]: rdkafka#producer-1: localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Connection refused (after 0ms in state CONNECT, 30 identical error(s) suppressed)
+%3|1752035317.740|FAIL|rdkafka#producer-1| [thrd:localhost:9092/bootstrap]: localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Connection refused (after 0ms in state CONNECT, 30 identical error(s) suppressed)
+%3|1752035317.740|ERROR|rdkafka#producer-1| [thrd:app]: rdkafka#producer-1: localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Connection refused (after 0ms in state CONNECT, 30 identical error(s) suppressed)
+%3|1752035347.741|FAIL|rdkafka#producer-1| [thrd:localhost:9092/bootstrap]: localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Connection refused (after 0ms in state CONNECT, 30 identical error(s) suppressed)
+%3|1752035347.741|ERROR|rdkafka#producer-1| [thrd:app]: rdkafka#producer-1: localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Connection refused (after 0ms in state CONNECT, 30 identical error(s) suppressed)
+%3|1752035377.742|FAIL|rdkafka#producer-1| [thrd:localhost:9092/bootstrap]: localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Connection refused (after 0ms in state CONNECT, 30 identical error(s) suppressed)
+%3|1752035377.743|ERROR|rdkafka#producer-1| [thrd:app]: rdkafka#producer-1: localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Connection refused (after 0ms in state CONNECT, 30 identical error(s) suppressed)
+%3|1752035407.744|FAIL|rdkafka#producer-1| [thrd:localhost:9092/bootstrap]: localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Connection refused (after 0ms in state CONNECT, 30 identical error(s) suppressed)
+%3|1752035407.744|ERROR|rdkafka#producer-1| [thrd:app]: rdkafka#producer-1: localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Connection refused (after 0ms in state CONNECT, 30 identical error(s) suppressed)
+%3|1752035437.745|FAIL|rdkafka#producer-1| [thrd:localhost:9092/bootstrap]: localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Connection refused (after 0ms in state CONNECT, 30 identical error(s) suppressed)
+%3|1752035437.745|ERROR|rdkafka#producer-1| [thrd:app]: rdkafka#producer-1: localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Connection refused (after 0ms in state CONNECT, 30 identical error(s) suppressed)
+%3|1752035467.746|FAIL|rdkafka#producer-1| [thrd:localhost:9092/bootstrap]: localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Connection refused (after 0ms in state CONNECT, 30 identical error(s) suppressed)
+%3|1752035467.746|ERROR|rdkafka#producer-1| [thrd:app]: rdkafka#producer-1: localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Connection refused (after 0ms in state CONNECT, 30 identical error(s) suppressed)
+%3|1752035497.747|FAIL|rdkafka#producer-1| [thrd:localhost:9092/bootstrap]: localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Connection refused (after 0ms in state CONNECT, 30 identical error(s) suppressed)
+%3|1752035497.747|ERROR|rdkafka#producer-1| [thrd:app]: rdkafka#producer-1: localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Connection refused (after 0ms in state CONNECT, 30 identical error(s) suppressed)
+%3|1752035527.749|FAIL|rdkafka#producer-1| [thrd:localhost:9092/bootstrap]: localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Connection refused (after 0ms in state CONNECT, 30 identical error(s) suppressed)
+%3|1752035527.753|ERROR|rdkafka#producer-1| [thrd:app]: rdkafka#producer-1: localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Connection refused (after 0ms in state CONNECT, 30 identical error(s) suppressed)
+[xUnit.net 00:05:01.51]       Confluent.Kafka.ProduceException`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Newtonsoft.Json.Linq.JObject, Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed]] : Local: Message timed out
+[xUnit.net 00:05:01.51]       Stack Trace:
+[xUnit.net 00:05:01.51]            at Confluent.Kafka.Producer`2.ProduceAsync(TopicPartition topicPartition, Message`2 message, CancellationToken cancellationToken)
+[xUnit.net 00:05:01.51]         /tmp/tempfspartition/QnetTransformArtifacts/MidTransformCode/transformedCode/sourceCode/src/Bruteflow.Kafka.Tests/KafkaPipelineTests.cs(51,0): at Bruteflow.Kafka.Tests.KafkaPipelineTests.KafkaPipeline_should_consumer_and_produce_events()
+[xUnit.net 00:05:01.51]         --- End of stack trace from previous location ---
+[xUnit.net 00:05:01.52]   Finished:    Bruteflow.Kafka.Tests
+</StdOut>
+    </Output>
+    <RunInfos>
+      <RunInfo computerName="ip-10-0-60-212" outcome="Error" timestamp="2025-07-09T04:32:07.7821737+00:00">
+        <Text>[xUnit.net 00:05:01.51]     Bruteflow.Kafka.Tests.KafkaPipelineTests.KafkaPipeline_should_consumer_and_produce_events [FAIL]</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+</TestRun>
